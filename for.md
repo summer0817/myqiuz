@@ -1,8 +1,4 @@
-for number in 2...9 {
-    for multiple in 1...9 {
-        print("\(number) * \(multiple) = \(number*multiple)")
-    }
-}
+for문으로 구구단 2~9단까지 출력해주세요
 
 /*
 2 * 1 = 2
@@ -79,23 +75,14 @@ for number in 2...9 {
 9 * 9 = 81
 */
 ——————————————————————————————
-let numbers = [1, 2, 3, 4, 5, 6]
-var sum = 0
+상수  [1, 2, 3, 4, 5, 6] 합계로 21이 나오게 만들어주세요
 
-for i in numbers {
-    sum += i
-}
-
-print(sum)
 
 /*
 21
 */
 ———————————————————————————————
-let names = ["Anna", "Elsa", "Olaf", "Christopher"]
-for name in names {
-print("Hello, \(name)!")
-}
+하기와 같이 출력되게 해주세요
 
 /*
 Hello, Anna!
@@ -104,10 +91,7 @@ Hello, Olaf!
 Hello, Christopher!
 */
 ———————————————————————————————
-let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
-for (animalName, legCount) in numberOfLegs {
-print("\(animalName)s have \(legCount) legs")
-}
+하기와 같이 출력되게 해주세요
 
 /*
 spiders have 8 legs
@@ -115,9 +99,7 @@ ants have 6 legs
 cats have 4 legs
 */
 ———————————————————————————————
-for index in (0...3).reversed() {
-    print("\(index)")
-}
+0~3 숫자가 하기처럼 거꾸로 나오게 해주세요
 
 /*
 3
